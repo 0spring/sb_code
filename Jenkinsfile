@@ -5,11 +5,11 @@ pipeline {
     maven 'my_maven'
   }
   environment {
-    gitName = 'oolralra'
-    gitEmail = 'oolralra@gmail.com'
+    gitName = '0spring'
+    gitEmail = 'dmswn86155@gmail.com'
     githubCredential = 'git_cre'
-    dockerHubRegistry = '10.7.7.0:5000/sbimage'
-    githubWeb = 'https://github.com/oolralra/sb_code'
+    dockerHubRegistry = '10.7.7.10:5000/sbimage'
+    githubWeb = 'https://github.com/0spring/sb_code'
   }
 
   stages {
