@@ -8,8 +8,13 @@ pipeline {
     gitName = '0spring'
     gitEmail = 'dmswn86155@gmail.com'
     githubCredential = 'git_cre'
+<<<<<<< HEAD
     dockerHubRegistry = '10.7.7.10:5000/sbimage'
     githubWeb = 'https://github.com/0spring/sb_code'
+=======
+    dockerHubRegistry = '10.7.7.10/sbimage'
+    githubWeb = 'https://github.com/0spring/sb_code.git'
+>>>>>>> d6e2339d5b93203782ed24240ef95d7b978c4704
   }
 
   stages {
@@ -27,6 +32,7 @@ pipeline {
       }
     }
 
+<<<<<<< HEAD
     stage('Maven Build') {
       steps {
           sh 'mvn clean install'
@@ -80,6 +86,8 @@ pipeline {
     }
 
 
+=======
+>>>>>>> d6e2339d5b93203782ed24240ef95d7b978c4704
     
   }
 }
