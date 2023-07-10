@@ -9,7 +9,7 @@ pipeline {
     gitEmail = 'dmswn86155@gmail.com'
     githubCredential = 'git_cre'
     dockerHubRegistry = '10.7.7.10/sbimage'
-    githubWeb = 'https://github.com/Ospring/sb_code.git'
+    githubWeb = 'https://github.com/0spring/sb_code.git'
   }
 
   stages {
