@@ -5,7 +5,7 @@ pipeline {
     maven 'my_maven'
   }
   environment {
-    gitName = 'Ospring'
+    gitName = '0spring'
     gitEmail = 'dmswn86155@gmail.com'
     githubCredential = 'git_cre'
     dockerHubRegistry = '10.7.7.10/sbimage'
